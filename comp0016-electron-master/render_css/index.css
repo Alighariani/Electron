@@ -1,0 +1,40 @@
+
+.container{
+    grid-template-rows: 10% 1fr 10% !important;
+}
+
+#title{
+    grid-column:2;
+}
+
+#enter-form{
+    display:flex;
+    flex-direction:column;
+    grid-column:2;
+    grid-row:2;
+}
+
+#login-fail{
+    grid-row:3;
+    grid-column:2;
+}
+
+#signup-form{
+    display:flex;
+    flex-direction: column;
+    grid-column:2;
+    grid-row:2;
+    position:absolute;
+    transition: .5s ease;
+    top: 252px;
+    left: 340px;
+}
+
+.btn{
+    margin-bottom: 5px;
+}
+
+.version{
+    grid-row:4;
+    grid-column: 1/span 3;
+}

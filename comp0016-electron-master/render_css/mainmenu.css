@@ -1,0 +1,25 @@
+
+
+.bottom-button{
+    display:flex;
+    flex-direction:row;
+    grid-row:3;
+}
+
+.pathbox{
+    height:80px;
+    overflow-y:scroll;
+}
+.no-margin{
+    margin:0;
+}
+button{
+    margin:5px;
+}
+#analyse-form {
+    margin: 10px 10px 10px 10px;
+    grid-row:2;
+}
+.bottom-button{
+    height:50px;
+}
